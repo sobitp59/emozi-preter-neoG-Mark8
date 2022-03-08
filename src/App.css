@@ -129,15 +129,19 @@
     width : 98%;
   }
 
+  .top .title{
+    font-size: 1.5rem;
+  }
+
   .output .emojis{
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     text-align: center;
     font-size: 1.8rem;
     margin: 0.5rem;
     padding: 0.5rem;
     border: 2px solid rgba(74,0,224,1);
-    border-radius: 1.4rem;
+    border-radius: 1rem;
     border-bottom: 5px solid rgba(74,0,224,1);
     cursor: pointer;
   }
@@ -169,5 +173,9 @@
 
 ::placeholder{
   font-size: 1.2rem;
+}
+
+.middle input{
+  width: 90%;
 }
 }

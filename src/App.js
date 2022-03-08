@@ -45,7 +45,7 @@ function App() {
     <>
     <div className="container">
       <div className="top">
-        <h1 className="title"> My Vehicles <i class="fa-solid fa-bus"></i> Emozi</h1>
+        <h1 className="title"> my vehicles <i class="fa-solid fa-bus"></i> emozi</h1>
       </div>
 
       <div className="middle">
