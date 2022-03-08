@@ -118,3 +118,56 @@
 .bottom-made-by a{
   color: white;
 }
+
+
+
+
+/* Responsive Design */
+
+@media (max-width : 478px){
+  .container{
+    width : 95%;
+  }
+
+  .output .emojis{
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgba(74,0,224,1);
+    border-radius: 1.4rem;
+    border-bottom: 5px solid rgba(74,0,224,1);
+    cursor: pointer;
+  }
+  
+  .output .emojis:hover{
+    border-bottom: 9px solid rgba(74,0,224,1);
+    transition: 0.1s ease-in all;
+    background-color: rgba(75, 0, 224, 0.096);
+  }
+
+.middle input{
+  width: 80%;
+  height: 5rem;
+  margin-top: 2rem;
+  padding: 0.7rem;
+  font-size: 2rem;
+  border-radius: 0.7rem;
+  outline: none;
+  background: none;
+  background-color: transparent;
+  border: 2px solid rgba(74,0,224,1);
+  border-bottom: 5px solid rgba(74,0,224,1);
+}
+
+.middle .emojiMeaning{
+  font-size: 1.5rem;
+}
+
+
+::placeholder{
+  font-size: 1.2rem;
+}
+}
