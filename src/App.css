@@ -44,6 +44,8 @@
   margin-top: 3rem;
   padding: 0.7rem;
   font-size: 2rem;
+  font-weight: 500;
+  color: rgba(142,45,226,1);
   border-radius: 0.5rem;
   outline: none;
   background: none;
@@ -71,20 +73,21 @@
   width: 80%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* background-color: red; */
 }
 
 .output{
   /* width: 60%; */
   list-style: none;
   display: grid;
+  /* place-items: center; */
   grid-template-columns: repeat(3, 1fr);
 }
 
 .output .emojis{
   width: 15rem;
   height: 15rem;
+  display: grid;
+  place-items: center;
   text-align: center;
   font-size: 8rem;
   margin: 1rem;
@@ -113,6 +116,7 @@
 .bottom-made-by{
   text-align: center;
   color: white;
+  font-weight: 700;
 }
 
 .bottom-made-by a{
@@ -137,7 +141,7 @@
     width: 6rem;
     height: 6rem;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin: 0.5rem;
     padding: 0.5rem;
     border: 2px solid rgba(74,0,224,1);
@@ -154,10 +158,10 @@
 
 .middle input{
   width: 80%;
-  height: 5rem;
+  height: 4rem;
   margin-top: 2rem;
   padding: 0.7rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 0.7rem;
   outline: none;
   background: none;
@@ -178,4 +182,5 @@
 .middle input{
   width: 90%;
 }
+
 }
